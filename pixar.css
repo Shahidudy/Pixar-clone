@@ -1,0 +1,247 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header1 {
+    width: 100%;
+    height: 80px;
+    background: lightblue;
+}
+
+.parent1 {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background: white;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo {
+    background: white;
+    width: 25%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.words {
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+
+}
+
+.word1:hover {
+    cursor: pointer;
+    color: grey;
+    font-family: brandon-grotesque;
+
+}
+
+.word2:hover {
+    cursor: pointer;
+    color: grey;
+    font-family: brandon-grotesque;
+}
+
+.word3:hover {
+    cursor: pointer;
+    color: grey;
+    font-family: brandon-grotesque;
+}
+
+.word4:hover {
+    cursor: pointer;
+    color: grey;
+    font-family: brandon-grotesque;
+}
+
+.word5:hover {
+    cursor: pointer;
+    color: grey;
+    font-family: brandon-grotesque;
+}
+
+.word6:hover {
+    cursor: pointer;
+    color: grey;
+    font-family: brandon-grotesque;
+}
+
+.before-words {
+    width: 75%;
+    align-content: space-between;
+}
+
+.header2 {
+    width: 100%;
+    height: 660px;
+    background-image: url(photo-pixar/nn-p.png);
+    display: flex;
+
+}
+
+.parent2 {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    padding-left: 150px;
+    font-family: futura-pt;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+}
+
+.header3 {
+    background: rgb(235, 236, 237);
+    width: 100%;
+    height: 580px;
+}
+
+.parent3 {
+    display: flex;
+    flex-direction: column;
+    background: rgb(247, 250, 251);
+    width: 100%;
+    height: 800px;
+    align-items: center;
+    justify-content: center;
+}
+
+.elder1 {
+    display: flex;
+    height: 300px;
+    width: 80%;
+    background: rgb(247, 250, 251);
+    align-content: center;
+}
+
+.elder2 {
+    display: flex;
+    height: 220px;
+    width: 80%;
+    white-space: pre-wrap;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.c2 {
+    width: 33.33%;
+    background: rgb(247, 250, 251);
+    height: 300px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.c3 {
+    width: 33.33%;
+    background: rgb(247, 250, 251);
+    height: 300px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.cc1 {
+    display: flex;
+    width: 33.33%;
+    background: rgb(247, 250, 251)lue;
+    height: 200px;
+    justify-content: center;
+    font-weight: bold;
+    font-family: brandon-grotesque;
+    ;
+    padding-top: 20px;
+}
+
+.cc2 {
+    display: flex;
+    width: 33.33%;
+    background: rgb(247, 250, 251);
+    height: 200px;
+    justify-content: center;
+    font-weight: bold;
+    font-family: brandon-grotesque;
+    ;
+    padding-top: 20px;
+}
+
+.cc3 {
+    display: flex;
+    width: 33.33%;
+    background: rgb(247, 250, 251);
+    height: 200px;
+    justify-content: center;
+    font-weight: bold;
+    font-family: brandon-grotesque;
+    ;
+    padding-top: 20px;
+}
+
+.header4 {
+    width: 100%;
+    height: 90px;
+    background: rgb(247, 250, 251);
+}
+
+.header5 {
+    width: 100%;
+    background: lightgrey;
+    height: 250px;
+}
+
+.parent5 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 250px;
+    background: lightgreen;
+}
+
+.p51 {
+    width: 100%;
+    height: 50px;
+    background: rgb(247, 250, 251);
+    display: flex;
+    justify-content: center;
+}
+
+.p52 {
+    width: 100%;
+    height: 200px;
+    background: rgb(247, 250, 251);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    font-family: brandon-grotesque;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: .29em;
+    line-height: 1.7em;
+    text-transform: uppercase;
+    pointer-events: auto;
+}
+
+.youtube {
+    padding-left: 12px;
+}
+
+.facebook :hover {
+    cursor: pointer;
+    color: grey;
+}
